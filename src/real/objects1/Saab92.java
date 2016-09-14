@@ -17,26 +17,26 @@ public class Saab92 extends Car {
     }
     
     @Override
-    public void fillTank() {
+    public final void fillTank() {
         //Fill Tank
     }
 
     @Override
-    public void useFuel() {
+    public final void useFuel() {
         //Use Fuel
     }
 
     @Override
-    public void move() {
+    public final void move() {
         //Move
     }
 
     @Override
-    public void startEngine() {
+    public final void startEngine() {
         //Start engine
     }
     
-    public void buildBoost() {
+    public final void buildBoost() {
         //Build boost pressure
     }    
     

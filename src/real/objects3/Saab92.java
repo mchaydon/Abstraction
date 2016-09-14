@@ -16,7 +16,7 @@ public class Saab92 extends Car{
         super(fuelType);
     }
     
-    public void buildBoost() {
+    public final void buildBoost() {
         //Build boost pressure
     }    
 }
