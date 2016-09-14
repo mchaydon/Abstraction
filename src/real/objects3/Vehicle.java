@@ -3,19 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package abstraction;
+package real.objects3;
 
 /**
  *
  * @author Mike
  */
-public class Abstraction {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Vehicle {
+    public void move() {
+        //Vehicle moves
     }
-    
 }
