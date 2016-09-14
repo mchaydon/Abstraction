@@ -12,5 +12,23 @@ package imaginary.objects;
 public abstract class Pokemon implements Creature {
     public int level;
     public int health;
+
+    public int getLevel() {
+        return level;
+    }
+
+    public void setLevel(int level) {
+        //needs validation
+        this.level = level;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public void setHealth(int health) {
+        //needs validation
+        this.health = health;
+    }
  
 }

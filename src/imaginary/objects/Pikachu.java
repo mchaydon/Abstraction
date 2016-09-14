@@ -41,20 +41,20 @@ public class Pikachu extends Pokemon{
         run();
     }
 
-    public int getLevel() {
+    public final int getLevel() {
         return level;
     }
 
-    public void setLevel(int level) {
+    public final void setLevel(int level) {
         //needs validation to check if legal level change.
         this.level = level;
     }
 
-    public int getHealth() {
+    public final int getHealth() {
         return health;
     }
 
-    public void setHealth(int health) {
+    public final void setHealth(int health) {
         //needs validation to check if health increase is legal.
         this.health = health;
     }
