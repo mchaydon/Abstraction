@@ -21,12 +21,12 @@ public abstract class Car implements Vehicle{
     public abstract void startEngine();
     
     
-    public void setFuelType(String fuelType){
+    public final void setFuelType(String fuelType){
         //Validation
         this.fuelType = fuelType;
     }
     
-    public String getFuelType(){
+    public final String getFuelType(){
         return fuelType;
     }
     

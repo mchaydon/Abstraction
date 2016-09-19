@@ -17,18 +17,10 @@ public abstract class Pokemon implements Creature {
         return level;
     }
 
-    public void setLevel(int level) {
-        //needs validation
-        this.level = level;
-    }
+    public abstract void setLevel(int level);
 
-    public int getHealth() {
-        return health;
-    }
+    public abstract int getHealth();
 
-    public void setHealth(int health) {
-        //needs validation
-        this.health = health;
-    }
+    public abstract void setHealth(int health);
  
 }

@@ -10,7 +10,7 @@ package real.objects3;
  * @author Mike
  */
 public class Vehicle {
-    public void move() {
+    public final void move() {
         //Vehicle moves
     }
 }

@@ -16,23 +16,23 @@ public class Car extends Vehicle{
         this.fuelType = fuelType;
     }
     
-    public void fillTank(){
+    public final void fillTank(){
         //Fill Tank 
     };
-    public void useFuel(){
+    public final void useFuel(){
         //Use Fuel
     };
-    public void startEngine(){
+    public final void startEngine(){
         //Start Engine
     };
     
     
-    public void setFuelType(String fuelType){
+    public final void setFuelType(String fuelType){
         //Validation
         this.fuelType = fuelType;
     }
     
-    public String getFuelType(){
+    public final String getFuelType(){
         return fuelType;
     }
 }

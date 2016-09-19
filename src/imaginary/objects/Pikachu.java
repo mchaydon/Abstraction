@@ -21,39 +21,43 @@ public class Pikachu extends Pokemon{
     }
 
     @Override
-    public void speak() {
+    public final void speak() {
         System.out.println("Pikachu!");
     }
 
     @Override
-    public void setName(String name){
+    public final  void setName(String name){
         //needs validation
         this.name = name;
     }
     
     @Override
-    public String getName() {
+    public final String getName() {
         return name;
     }
 
     @Override
-    public void move() {
+    public final void move() {
         run();
     }
-
+    
+    @Override
     public final int getLevel() {
         return level;
     }
 
+    @Override
     public final void setLevel(int level) {
         //needs validation to check if legal level change.
         this.level = level;
     }
-
+    
+    @Override
     public final int getHealth() {
         return health;
     }
 
+    @Override
     public final void setHealth(int health) {
         //needs validation to check if health increase is legal.
         this.health = health;
